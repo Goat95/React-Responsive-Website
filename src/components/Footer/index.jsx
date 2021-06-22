@@ -16,43 +16,50 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink to="/">How it works</FooterLink>
-                                <FooterLink to="/">Testimonials</FooterLink>
+                                <FooterLink to="/">Name</FooterLink>
+                                <FooterLink to="/">Description</FooterLink>
                                 <FooterLink to="/">Careers</FooterLink>
-                                <FooterLink to="/">Investors</FooterLink>
-                                <FooterLink to="/">Terms of Service</FooterLink>
+                                <FooterLink to="/">Skill</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Contact us</FooterLinkTitle>
-                                <FooterLink to="/">Contact</FooterLink>
-                                <FooterLink to="/">Support</FooterLink>
-                                <FooterLink to="/">Destinations</FooterLink>
-                                <FooterLink to="/">Sponsorships</FooterLink>
+                            <FooterLinkTitle>Website</FooterLinkTitle>
+                                <FooterLink to="/">BLOOGER</FooterLink>
+                                <FooterLink to="/">RESPONSIVE</FooterLink>
+                                <FooterLink to="/">MEGABOX</FooterLink>
+                                <FooterLink to="/">FOLEX</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Videos</FooterLinkTitle>
-                                <FooterLink to="/">Submit Video</FooterLink>
-                                <FooterLink to="/">Ambassadors</FooterLink>
-                                <FooterLink to="/">Agency</FooterLink>
-                                <FooterLink to="/">Influencer</FooterLink>
+                            <FooterLinkTitle>Animation</FooterLinkTitle>
+                                <FooterLink to="/">Tail Animation</FooterLink>
+                                <FooterLink to="/">Cube Animation</FooterLink>
+                                <FooterLink to="/">Wave Animation</FooterLink>
+                                <FooterLink to="/">Bar Animation</FooterLink>
+                                <FooterLink to="/">SVG Animation</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <FooterLink to="/">Instagram</FooterLink>
-                                <FooterLink to="/">Facebook</FooterLink>
-                                <FooterLink to="/">Youtube</FooterLink>
-                                <FooterLink to="/">Twitter</FooterLink>
+                            <FooterLinkTitle>Script</FooterLinkTitle>
+                                <FooterLink to="/">Todo List</FooterLink>
+                                <FooterLink to="/">Weather App</FooterLink>
+                                <FooterLink to="/">Paint Board</FooterLink>
+                                <FooterLink to="/">Parallax</FooterLink>
+                        </FooterLinkItems>
+                        <FooterLinkItems>
+                            <FooterLinkTitle>Contact</FooterLinkTitle>
+                                <FooterLink to="/">Address</FooterLink>
+                                <FooterLink to="/">Phone Number</FooterLink>
+                                <FooterLink to="/">Email</FooterLink>
+                                <FooterLink to="/">Email Form</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            dolla
+                            Portfolio
                         </SocialLogo>
-                        <WebsiteRights>dolla @ {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                        <WebsiteRights>JunHyeok @ {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                                 <FaFacebook />

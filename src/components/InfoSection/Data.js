@@ -1,54 +1,90 @@
-import img from '../../images/svg-1.svg';
-import img2 from '../../images/svg-2.svg';
-import img3 from '../../images/svg-3.svg';
+import img from '../../images/about.svg';
+import img2 from '../../images/website.svg';
+import img3 from '../../images/animation.svg';
+import img4 from '../../images/script.svg';
+import img5 from '../../images/contact.svg';
 
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Get Started',
+    topLine: 'About Us',
+    headline: 'FRONT-END DEVELOPOER',
+    description: "This is Junhyeok Kim, who wants to become a front-end developer. I will do my best to become a front-end developer who is curious about what I don't know and continues to develop in accordance with the rapidly changing nature of my work.",
+    buttonLabel: 'View More',
     imgStart: false,
     img: img,
-    alt: 'Car',
+    alt: 'about',
     dark: true,
     primary: true,
     darkText: false
 };
 
 export const homeObjTwo = {
-    id: 'discover',
+    id: 'website',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Unlimited Access',
-    headline: 'Login to your account at any time',
-    description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
-    buttonLabel: 'Learn More',
+    topLine: 'Website',
+    headline: 'CREATIVE CODING SITE',
+    description: 'I have created various sites using HTML, CSS, and JAVASCRIPT.',
+    buttonLabel: 'View More',
     imgStart: true,
     img: img2,
-    alt: 'Piggybank',
+    alt: 'website',
     dark: false,
     primary: false,
     darkText: true
 };
 
 export const homeObjThree = {
-    id: 'signup',
+    id: 'animation',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Animation',
+    headline: 'VARIOUS ANIMATION',
+    description: "I made various animations using CSS animation.",
+    buttonLabel: 'View More',
+    imgStart: false,
+    img: img3,
+    alt: 'animation',
+    dark: true,
+    primary: true,
+    darkText: false
+};
+
+export const homeObjFour = {
+    id: 'script',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Join our Team',
-    headline: 'Creating an account is extremely easy',
-    description: "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
-    imgStart: false,
-    img: img3,
-    alt: 'Paper',
+    topLine: 'Script',
+    headline: 'VANILLA JAVASCRIPT',
+    description: 'I made a to-do list, a weather app, paintboard, and parallax using pure JavaScript.',
+    buttonLabel: 'View More',
+    imgStart: true,
+    img: img4,
+    alt: 'script',
     dark: false,
     primary: false,
     darkText: true
+};
+
+export const homeObjFive = {
+    id: 'contact',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Contact',
+    headline: 'CONTACT ME ANYTIME',
+    description: 'If you want to work with me, please contact me. I look forward to hearing from you.',
+    buttonLabel: 'Contact Me',
+    imgStart: false,
+    img: img5,
+    alt: 'contact',
+    dark: true,
+    primary: true,
+    darkText: false
 };

@@ -16,11 +16,11 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Virtual Banking Made Easy</HeroH1>
-                <HeroP>Sign Up for a new account today and receive $250 in credit towards your next payment.</HeroP>
+                <HeroH1>Welcome to my React Website Portfolio.</HeroH1>
+                <HeroP>This is Junhyeok Kim, who wants to become a front-end developer. I will do my best to become a front-end developer who is curious about what I don't know and continues to develop in accordance with the rapidly changing nature of my work.</HeroP>
                 <HeroBtnWrapper>
                     <Button 
-                    to="signup" 
+                    to="contact" 
                     onMouseEnter={onHover} 
                     onMouseLeave={onHover} 
                     primary="true" 
@@ -31,7 +31,7 @@ const HeroSection = () => {
                     exact='true'
                     offset={-80}
                     >
-                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                        Contact Me {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
